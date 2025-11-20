@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Profile;
 
 
 @Import(MemoryConfig.class)
-@SpringBootApplication(scanBasePackages = "hello.itemservice.web")
+@SpringBootApplication(scanBasePackages = "hello.itemservice.web")	// 수동으로 스캔범위 등록
 public class ItemServiceApplication {
 
 	public static void main(String[] args) {
